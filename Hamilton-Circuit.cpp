@@ -80,10 +80,10 @@ void printSolution(int path[])
     printf ("Solution Exists:"
             " Following is one Hamiltonian Cycle \n");
     for (int i = 0; i < V; i++)
-        printf(" %d ", path[i]);
+        printf(" %d ", path[i] + 1);
  
     
-    printf(" %d ", path[0]);
+    printf(" %d ", path[0] + 1);
     printf("\n");
 }
  
@@ -101,7 +101,7 @@ int main()
     graph1[x][y]=0;
     
     //input the diagram
-	cout<< "Please enter i and j which means i and j can reach each other.If you have entered all path ,enterÂ¡u0 0Â¡vto exit."<<endl;
+	cout<< "Please enter i and j which means i and j can reach each other.If you have entered all path ,enter¡u0 0¡vto exit."<<endl;
     while(1)
     {
           cin>> i >> j;
@@ -114,5 +114,7 @@ int main()
     
     
 	hamCycle(graph1);
+
+	system("pause");
     return 0;
 }
