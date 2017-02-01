@@ -101,7 +101,7 @@ int main()
     graph1[x][y]=0;
     
     //input the diagram
-	cout<< "Please enter i and j which means i and j can reach each other.If you have entered all path ,enter¡u0 0¡vto exit."<<endl;
+	cout<< "Please enter i and j which means i and j can reach each other.If you have entered all path ,enterÂ¡u0 0Â¡vto exit."<<endl;
     while(1)
     {
           cin>> i >> j;
